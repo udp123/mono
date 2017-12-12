@@ -1,0 +1,9 @@
+tools and or configurations of note
+zsh, oh-my-zsh, my.zsh/vimrc
+https config, 
+osx - brew, ssh-agent, 
+
+webserver: go
+
+endpoints: 
+  * port6677:/
