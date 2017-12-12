@@ -3,7 +3,13 @@ zsh, oh-my-zsh, my.zsh/vimrc
 https config, 
 osx - brew, ssh-agent, 
 
-webserver: go
+webserver: 
+go
+brew install postgres
+brew services start postgresql
+initdb /usr/local/var/postgres0 -E utf8 
+pg_ctl -D /usr/local/var/postgres0 -l logfile start
+
 
 endpoints: 
   * port6677:/
