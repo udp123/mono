@@ -13,3 +13,7 @@
 2017-12-11 17:59:45.371 PST [10526] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2017-12-11 17:59:45.383 PST [10527] LOG:  database system was shut down at 2017-12-11 17:52:53 PST
 2017-12-11 17:59:45.388 PST [10526] LOG:  database system is ready to accept connections
+2017-12-12 03:25:43.050 PST [10526] LOG:  received smart shutdown request
+2017-12-12 03:25:43.055 PST [10526] LOG:  worker process: logical replication launcher (PID 10533) exited with exit code 1
+2017-12-12 03:25:43.055 PST [10528] LOG:  shutting down
+2017-12-12 03:25:43.070 PST [10526] LOG:  database system is shut down
